@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioShock</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }        
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .cita {
+            font-style: italic;
+            color: gray;
+        }
+        .imagen {
+            text-align: center;
+        }
+        .lista {
+            background-color: #2f21f3;
+            padding: 10px;
+        }
+        .tabla {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .tabla th, .tabla td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<!--Es el cuerpo principal del documento HTML. Contiene todo el contenido visible de la página web.-->
+<body>
+   <!--Representa el encabezado de una sección o página web. Suele contener logotipos, menús de navegación o títulos principales.-->
+    <header>
+        <!--Se usan para definir títulos y subtítulos, siendo <h1> el más importante y <h6> el de menor jerarquía.-->
+        <h1>Un juego o algo mas</h1>
+        <nav>
+            <a href="#">Inicio</a> | 
+            <a href="#">Acerca de</a> | 
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <!--Se usa para mostrar imágenes en una página web. El atributo src indica la ubicación de la imagen-->
+    <div class="imagen">
+        <img src="OIP.jpg" alt="Imagen del juego">
+    </div>
+    
+    <!--Es un contenedor genérico en bloque que se usa para agrupar elementos y aplicar estilos con CSS.-->
+    <div class="container">
+    <h3>BioShock (2007)</h3>
+    <!--Define un párrafo de texto. Ayuda a organizar el contenido en bloques de lectura-->
+    <p>El jugador asume el papel de Jack, un hombre que sobrevive a un accidente de avión y descubre la ciudad submarina de Rapture, 
+    una utopía fallida creada por Andrew Ryan. La sociedad de Rapture colapsó debido al abuso del ADAM, una sustancia que otorga 
+    poderes especiales (plásmidos) pero causa adicción y mutaciones. Jack se ve envuelto en un conflicto entre Ryan y Atlas, 
+    un líder rebelde que oculta sus verdaderas intenciones. El juego tiene uno de los giros argumentales más famosos de los 
+    videojuegos.</p>
+    
+    <h3>BioShock 2 (2010)</h3>    
+    <!--<blockquote> (Citas) – Se usa para representar una cita textual de otra fuente. Se suele mostrar con sangría en los navegadores.-->
+    <blockquote class="cita">"Ambientado ocho años después del primer juego, esta vez el jugador controla a Subject Delta, un prototipo de los Big Daddies. 
+    Su misión es encontrar a Eleanor, su "Little Sister" original, antes de que su madre, Sophia Lamb, la convierta en una especie de 
+    mesías de Rapture. La historia explora temas de comunidad, sacrificio y libre albedrío."</blockquote>
+    
+    
+    <h3>BioShock Infinite (2013)</h3>
+    <p>El juego cambia de escenario y nos lleva a Columbia, una ciudad flotante en 1912. El jugador controla a Booker DeWitt, 
+    un exsoldado con deudas, que acepta la misión de rescatar a una joven llamada Elizabeth. Pronto descubre que Columbia es una 
+    teocracia racista liderada por el profeta Zachary Comstock. La trama se enreda con conceptos de universos paralelos y viajes en 
+    el tiempo, revelando una conexión profunda con los eventos de los juegos anteriores.</p>
+    
+    <!--Listas (<ul>, <ol>, <li>) – Se utilizan para crear listas ordenadas (<ol>) o desordenadas (<ul>), con elementos individuales <li>.-->
+    <h2>Orden para jugar</h2>
+    <div class="lista">
+        <ul>
+            <li>BioShock 1</li>
+            <li>BioShock 2</li>
+            <li>BioShock Infinite</li>
+        </ul>
+    </div>
+
+    <p>si te interesa esta triloguia de juegos te dejo un link para que lo puedas comprar en la paguina de steam</p>
+    <!--<a> (Vínculos) – Define un hipervínculo que permite enlazar a otras páginas web, archivos o secciones dentro de la misma página. Se usa con el atributo href.-->
+    <a href=https://store.steampowered.com/developer/bioshock target="_blank">BioShock</a>
+
+    <!--aqui me quede sin ideas para para la paguina asi que solo pondre ejemplos, perdon.-->
+    
+    <!--<table> (Tablas) – Se usa para mostrar datos en formato de tabla, con filas (<tr>), celdas (<td>), y encabezados (<th>).-->
+    <h2>Tablas de ejemplo</h2>
+    <table class="tabla">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Brian</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Cristian</td>
+            <td>19</td>
+        </tr>
+    </table>
+
+    <h2>Formularios</h2>
+    
+    <!--<form> (Formularios) – Permite recopilar información del usuario a través de campos de entrada como texto, botones, casillas de verificación, etc.-->
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    
+    
+    <!--<div> – Es un contenedor genérico en bloque que se usa para agrupar elementos y aplicar estilos con CSS.-->
+    <!--<span> – Similar a <div>, pero es un contenedor en línea. Se usa para aplicar estilos a partes específicas de un texto-->
+    <h2>ejemplo de `div` y `span`</h2>
+        <div style="background-color: hwb(228 3% 4%); padding: 10px;">
+            <p>Este es un `div` con fondo azul.</p>
+        </div>
+        <p>Este es un texto con <span style="color: red;">una palabra en rojo</span>.</p>
+    </div>   
+
+    </div>
+    
+    <!--<footer> – Representa el pie de página de una sección o página web. Suele incluir información de contacto, enlaces a redes sociales o derechos de autor.-->
+    <footer>
+        <p>Un juego o algo mas - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
